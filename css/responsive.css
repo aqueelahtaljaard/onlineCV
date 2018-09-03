@@ -7,14 +7,6 @@
 	4. ABOUT SECTION
 	--------------------------------- */
 
-	/* COUNTER SECTION */
-
-	.about-section{ text-align: center; }
-
-	.counter{ display: inline-block; }
-
-	.counter .desc{ text-align: left; }
-}
 
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
@@ -50,11 +42,6 @@
 	/* ---------------------------------
 	3. INTRO SECTION
 	--------------------------------- */
-
-	/* INTRO */
-
-	.intro .downlad-btn{ float: none; }
-
 
 
 
@@ -95,7 +82,11 @@
 	1. PRIMARY STYLES
 	--------------------------------- */
 
-	body{ font-size: 14px;  }
+	body{ font-size: 10px;  }
+
+	.nav>li>a {
+    padding: 10px;
+}
 
 	/* ---------------------------------
 	6. PORFOLIO SECTION
@@ -108,7 +99,9 @@
 /* Screens Resolution : 479px
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 479px) {
-
+nav{
+	width: 100%;
+}
 
 }
 
